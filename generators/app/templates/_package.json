@@ -95,7 +95,7 @@
 <% if (props.target.includes('cordova')) { -%>
     "cordova": "^8.0.0",
 <% } -%>
-    "@angular/cli": "~6.2.1",
+    "@angular/cli": "next",
     "@angular/compiler-cli": "^6.1.7",
     "@angular/language-service": "^6.1.7",
     "@angular-devkit/build-angular": "~0.8.1",
@@ -136,7 +136,7 @@
     "stylelint-scss": "~3.3.0",
     "ts-node": "~7.0.1",
     "tslint": "~5.11.0",
-    "typescript": "~2.9.2"
+    "typescript": "latest"
 <% if (props.prettier) { -%>
   },
   "prettier": {
